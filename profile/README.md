@@ -1,4 +1,4 @@
-![Buidler Solutions](assets/hero.png)
+![Buidler Solutions](https://raw.githubusercontent.com/Buidler-Solutions/.github/main/assets/buidler-hero.png)
 
 ### Accountable public infrastructure
 
