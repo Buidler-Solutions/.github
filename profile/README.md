@@ -52,10 +52,3 @@ to argue with.
   triggers, plaintext-at-rest on operator disks, scoping of control packs)
   instead of being rounded up.
 
-## Work with us
-
-Institutions and teams building registries, land systems, certifications or
-citizen identity: open an issue on the repository, or start with
-[DATU's contributing guide](https://github.com/Buidler-Solutions/datu-ledger/blob/main/CONTRIBUTING.md).
-Security reports go through the
-[security policy](https://github.com/Buidler-Solutions/datu-ledger/blob/main/SECURITY.md).
