@@ -1,4 +1,4 @@
-![Buidler Solutions](https://raw.githubusercontent.com/Buidler-Solutions/datu-ledger/main/docs/assets/org-hero.png)
+![Buidler Solutions](https://raw.githubusercontent.com/Buidler-Solutions/datu-ledger/main/docs/assets/org-hero-v2.png)
 
 ### Accountable public infrastructure
 
@@ -18,11 +18,15 @@ what a vendor promises.
 [![ci](https://github.com/Buidler-Solutions/datu-ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/Buidler-Solutions/datu-ledger/actions/workflows/ci.yml)
 [![GESF](https://raw.githubusercontent.com/Buidler-Solutions/datu-ledger/main/badge.svg)](https://github.com/Buidler-Solutions/datu-ledger/blob/main/compliance/attestations-standards.md)
 
-Tokenless, offline-capable, hybrid post-quantum signatures (Ed25519 +
+An offline-first accountability protocol on an **Authorship-Strand DAG
+(AS-DAG)** and the **Evidence-Centric Ledger** model: independently authored,
+cryptographically signed strands stay causally connected instead of being
+forced into one global order. Hybrid post-quantum signatures (Ed25519 +
 ML-DSA-65), one static binary per node, a Flutter wallet that holds the
 citizen's own keys, and signatures from the people a record is about.
-Not a blockchain: entries link into a DAG, and there is no global consensus
-to argue with.
+
+> **Trust is not imposed by consensus. It is established through verifiable
+> evidence.**
 
 [Repository](https://github.com/Buidler-Solutions/datu-ledger) ·
 [Privacy notice](https://github.com/Buidler-Solutions/datu-ledger/blob/main/PRIVACY.md) ·
