@@ -7,6 +7,10 @@ registries, titles, certifications, consents. The guiding rule is simple:
 **evidence, not badges** - a record is worth what a verifier can check, not
 what a vendor promises.
 
+Two protocols carry that rule today: **DATU**, a DAG accountability ledger,
+and **Citizen**, a governance-first public ledger. Both are developed in the
+open in this organization.
+
 ## What we build
 
 <table>
@@ -42,6 +46,45 @@ citizen's own keys, and signatures from the people a record is about.
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="60%" valign="top">
+
+### Citizen: a governance-first public ledger
+
+[![Protocol](https://img.shields.io/badge/Protocol-CITIZEN-2d6cdf)](https://github.com/Buidler-Solutions/citizen)
+[![Consensus](https://img.shields.io/badge/Consensus-BFT%20%3E2/3%20quorum-6f42c1)](https://github.com/Buidler-Solutions/citizen)
+[![Finality](https://img.shields.io/badge/Finality-Deterministic%20~1s-success)](https://github.com/Buidler-Solutions/citizen)
+[![License: CPNCL](https://img.shields.io/badge/License-CPNCL%20v1.0-blue)](https://github.com/Buidler-Solutions/citizen/blob/main/LICENSE)
+
+A **namespace-first ledger** for verifiable records, governance and civic
+coordination - without speculative token economics. Entries validate against
+per-namespace rules, consensus is BFT with a >2/3 quorum and deterministic
+finality, governance proposals and votes are protocol-level, and modules
+execute sandboxed in WASM. A TypeScript SDK, wallets and an explorer sit on
+the same Rust core.
+
+> **Verifiable public truth, without speculative token economics.**
+
+[Repository](https://github.com/Buidler-Solutions/citizen) ·
+[Documentation](https://buidler-solutions.github.io/citizen/) ·
+[License: CPNCL v1.0](https://github.com/Buidler-Solutions/citizen/blob/main/LICENSE)
+
+</td>
+<td width="40%" valign="top">
+
+**Monorepo surfaces**
+
+- `citizen-protocol/` - Rust node and core crates
+- `sdk/` - builder-facing Node.js SDK
+- `wallet/` - CLI, browser, mobile and desktop
+- `explorer/` - ledger explorer
+- `docs/` - protocol documentation site
+
+</td>
+</tr>
+</table>
+
 ## How we work
 
 - **Verifiable over asserted.** Releases are reproducible and Sigstore-signed;
@@ -55,4 +98,3 @@ citizen's own keys, and signatures from the people a record is about.
 - **Say what is not true yet.** Known limits are written down (wire privacy
   triggers, plaintext-at-rest on operator disks, scoping of control packs)
   instead of being rounded up.
-
